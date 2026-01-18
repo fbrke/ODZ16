@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <corecrt_math_defines.h>
 using namespace std;
 
 double trapezoidal_integral(double (*f)(double), double a, double b, int n) {
